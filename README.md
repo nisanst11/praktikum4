@@ -3,7 +3,7 @@
 ## MEMBUAT PROGRAM DENGAN MENGINPUT 2 BUAH BILANGAN UNTUK MENENTUKAN BILANGAN TERBESAR MENGGUNAKAN STATEMENT IF
 # Source Code & Output (Hasil Running Program)
 Berikut ini adalah Source Code Latihan 1 :
-
+```
 a = int(input("bilangan a : "))
 b = int(input("bilangan b : "))
 
@@ -12,7 +12,7 @@ if a > b:
 elif b > a :
     print(f"terbesar adalah {b}")
     
-
+```
 ![gambar1](https://github.com/nisanst11/praktikum4/blob/master/gambar1.png)
 
 # LATIHAN 2
@@ -20,7 +20,7 @@ elif b > a :
 
 ## Source Code & Output (Hasil Running Program)
 Berikut ini adalah Source Code Latihan 2 :
-
+```
 a, b, c = (
     int(input("Masukan nilai Ke-1: ")),
     int(input("Masukan nilai Ke-2: ")),
@@ -41,7 +41,7 @@ else:
         print("Urutan Bilangan : ",c,a,b)
     else:
         print("Urutan Bilangan : ",c,b,a)
-
+```
 ![gambar2](https://github.com/nisanst11/praktikum4/blob/master/gambar2.png)
 
 # LATIHAN 3
@@ -49,7 +49,7 @@ else:
 
 ## Source Code & Output (Hasil Running Program)
 Berikut ini adalah Source Code Latihan 3 :
-
+```
 start = 0;
 stop = 10;
 for i in range(10):
@@ -63,7 +63,7 @@ for i in range(10):
     stop+=1
     print("")
 
-
+```
 ![gambar3](https://github.com/nisanst11/praktikum4/blob/master/gambar3.png)
 
 # LATIHAN 4
@@ -71,7 +71,7 @@ for i in range(10):
 
 ## Source Code & Output (Hasil Running Program)
 Berikut ini adalah Source Code LATIHAN 4 :
-
+```
 import random
 
 
@@ -79,7 +79,7 @@ jumlah = int(input("Masukan Jumlah Nilai :"))
 for i in range(jumlah):
     i=random.uniform(0.0,0.5)
     print("Data Ke:", i)
-
+```
 ![gambar4](https://github.com/nisanst11/praktikum4/blob/master/gambar4.png)
 
 # TUGAS PRAKTIKUM 2
@@ -87,7 +87,7 @@ for i in range(jumlah):
 
 ## Source Code & Output (Hasil Running Program)
 Berikut ini adalah Source Code LATIHAN 5 (PRAKTIKUM2) :
-
+```
 print("Praktikum2")
 A = int (input("Masukkan bilangan pertama:"))
 B = int (input("Masukkan bilangan kedua: "))
@@ -98,7 +98,7 @@ elif B > C :
     print("\nBilangan kedua adalah bilangan terbesat = %s" % B)
 else :
     print("\nBilangan ketiga adalah bilangan terbesar = %s" % C)
-
+```
 ![gambar5](https://github.com/nisanst11/praktikum4/blob/master/gambar5.png)
 
 ## FLOWCHART 
@@ -121,7 +121,7 @@ else :
 
 ## Source Code & Output (Hasil Running Program)
 Berikut ini adalah Source Code LATIHAN 6 (PRAKTIKUM3) :
-
+```
 n=1
 a=0
 while n !=0:
@@ -131,7 +131,7 @@ n = int(input("Masukkan bilangan: "))
 if n == 0:
 break
 print("Nilai terbesarnya adalah:", a)
-
+```
 ![gambar6](https://github.com/nisanst11/praktikum4/blob/master/gambar6.png)
 
 # TUGAS PRAKTIKUM 3
@@ -139,7 +139,7 @@ print("Nilai terbesarnya adalah:", a)
 
 ## Source Code & Output (Hasil Running Program)
 Berikut ini adalah Source Code PRAKTIKUM 3 :
-
+```
 n = 100000000
 sum = 0
 y = 0
@@ -149,5 +149,5 @@ sum = sum+i
 y += 1
 print('Laba bulan ke-', y, 'sebesar : ', i)
 print('Total laba adalah : ', sum)
-
+```
 ![gambar7.png](https://github.com/nisanst11/praktikum4/blob/master/gambar7.png)
